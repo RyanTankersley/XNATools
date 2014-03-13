@@ -81,14 +81,14 @@ namespace XNATools.MapEditor.Controls
             GraphicsDevice.Clear(Color.CornflowerBlue);
             if (map != null && map.SpriteSheet != null)
             {
-
+//                blah
             }
             else
             {
-                spriteBatch.Begin();
-                Texture2D blank = new Texture2D(GraphicsDevice, 1, 1, false, SurfaceFormat.Color);
-                spriteBatch.Draw(blank, new Rectangle(0, 0, this.Width, this.Height), Color.White);
-                spriteBatch.End();
+                //spriteBatch.Begin();
+                //Texture2D blank = new Texture2D(GraphicsDevice, 1, 1, false, SurfaceFormat.Color);
+                //spriteBatch.Draw(blank, new Rectangle(0, 0, this.Width, this.Height), Color.White);
+                //spriteBatch.End();
             }
 
             /*if (map.SpriteSheet != null)
