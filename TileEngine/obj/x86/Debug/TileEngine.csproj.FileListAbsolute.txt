@@ -1,0 +1,5 @@
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\TileEngine\bin\x86\Debug\TileEngine.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\TileEngine\bin\x86\Debug\TileEngine.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\TileEngine\obj\x86\Debug\TileEngine.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\TileEngine\obj\x86\Debug\TileEngine.pdb

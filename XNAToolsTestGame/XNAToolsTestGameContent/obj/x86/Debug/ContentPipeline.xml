@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGameContent\</RootDirectory>
+      <LoggerRootDirectory>c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\</LoggerRootDirectory>
+      <IntermediateDirectory>c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-03-05T15:58:23.7334306-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

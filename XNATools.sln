@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteEngine", "SpriteEngine\SpriteEngine.csproj", "{46708590-7972-4DF1-BF10-18229F5F7066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileEngine", "TileEngine\TileEngine.csproj", "{F0F2C495-6616-4FB1-AB01-D541957691F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedding", "XNAEmbedding\Embedding.csproj", "{5A5DB85F-6639-45FD-854B-A8802C8A0F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNAToolsTestGame", "XNAToolsTestGame\XNAToolsTestGame\XNAToolsTestGame.csproj", "{FA97A927-08DD-45C5-83C8-5836CDD614FC}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XNAToolsTestGameContent", "XNAToolsTestGame\XNAToolsTestGameContent\XNAToolsTestGameContent.contentproj", "{03C9AB53-DB59-435C-A771-EB55380690A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNAToolsTestClient", "XNAToolsTestClient\XNAToolsTestClient.csproj", "{187ABEA6-98CA-4149-8EDD-DE36D1C4A46F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapEditor", "MapEditor\MapEditor.csproj", "{83191125-4B13-44A2-B749-5AD5EF4AE8AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46708590-7972-4DF1-BF10-18229F5F7066}.Debug|x86.ActiveCfg = Debug|x86
+		{46708590-7972-4DF1-BF10-18229F5F7066}.Debug|x86.Build.0 = Debug|x86
+		{46708590-7972-4DF1-BF10-18229F5F7066}.Release|x86.ActiveCfg = Release|x86
+		{46708590-7972-4DF1-BF10-18229F5F7066}.Release|x86.Build.0 = Release|x86
+		{F0F2C495-6616-4FB1-AB01-D541957691F5}.Debug|x86.ActiveCfg = Debug|x86
+		{F0F2C495-6616-4FB1-AB01-D541957691F5}.Debug|x86.Build.0 = Debug|x86
+		{F0F2C495-6616-4FB1-AB01-D541957691F5}.Release|x86.ActiveCfg = Release|x86
+		{F0F2C495-6616-4FB1-AB01-D541957691F5}.Release|x86.Build.0 = Release|x86
+		{5A5DB85F-6639-45FD-854B-A8802C8A0F14}.Debug|x86.ActiveCfg = Debug|x86
+		{5A5DB85F-6639-45FD-854B-A8802C8A0F14}.Debug|x86.Build.0 = Debug|x86
+		{5A5DB85F-6639-45FD-854B-A8802C8A0F14}.Release|x86.ActiveCfg = Release|x86
+		{5A5DB85F-6639-45FD-854B-A8802C8A0F14}.Release|x86.Build.0 = Release|x86
+		{FA97A927-08DD-45C5-83C8-5836CDD614FC}.Debug|x86.ActiveCfg = Debug|x86
+		{FA97A927-08DD-45C5-83C8-5836CDD614FC}.Debug|x86.Build.0 = Debug|x86
+		{FA97A927-08DD-45C5-83C8-5836CDD614FC}.Release|x86.ActiveCfg = Release|x86
+		{FA97A927-08DD-45C5-83C8-5836CDD614FC}.Release|x86.Build.0 = Release|x86
+		{03C9AB53-DB59-435C-A771-EB55380690A6}.Debug|x86.ActiveCfg = Debug|x86
+		{03C9AB53-DB59-435C-A771-EB55380690A6}.Release|x86.ActiveCfg = Release|x86
+		{187ABEA6-98CA-4149-8EDD-DE36D1C4A46F}.Debug|x86.ActiveCfg = Debug|x86
+		{187ABEA6-98CA-4149-8EDD-DE36D1C4A46F}.Debug|x86.Build.0 = Debug|x86
+		{187ABEA6-98CA-4149-8EDD-DE36D1C4A46F}.Release|x86.ActiveCfg = Release|x86
+		{187ABEA6-98CA-4149-8EDD-DE36D1C4A46F}.Release|x86.Build.0 = Release|x86
+		{83191125-4B13-44A2-B749-5AD5EF4AE8AC}.Debug|x86.ActiveCfg = Debug|x86
+		{83191125-4B13-44A2-B749-5AD5EF4AE8AC}.Debug|x86.Build.0 = Debug|x86
+		{83191125-4B13-44A2-B749-5AD5EF4AE8AC}.Release|x86.ActiveCfg = Release|x86
+		{83191125-4B13-44A2-B749-5AD5EF4AE8AC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

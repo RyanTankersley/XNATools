@@ -1,0 +1,14 @@
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\XNAToolsTestClient.exe.config
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\XNAToolsTestClient.exe
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\XNAToolsTestClient.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\MapEditor.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\Embedding.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\TileEngine.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\MapEditor.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\Embedding.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\bin\Debug\TileEngine.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.csprojResolveAssemblyReference.cache
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNATools.TestClient.Properties.Resources.resources
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.csproj.GenerateResource.Cache
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.exe
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.pdb

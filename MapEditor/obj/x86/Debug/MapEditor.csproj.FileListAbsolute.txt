@@ -1,0 +1,12 @@
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\MapEditor.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\MapEditor.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\Embedding.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\TileEngine.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\TileEngine.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\Embedding.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.csprojResolveAssemblyReference.cache
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Properties.Resources.resources
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.csproj.GenerateResource.Cache
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
+c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapEditorWindow.resources
