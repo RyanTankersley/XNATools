@@ -15,5 +15,10 @@ namespace XNATools.MapEditor.GUI
         {
             InitializeComponent();
         }
+
+        private void tsmiNew_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+        }
     }
 }

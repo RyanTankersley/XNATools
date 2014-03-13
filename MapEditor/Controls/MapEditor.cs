@@ -84,7 +84,7 @@ namespace XNATools.MapEditor.Controls
                 spriteBatch.Begin();
                 map.Draw(spriteBatch, camera);
                 spriteBatch.End();
-                //bla
+
                 UpdateControl();
             }
         }
