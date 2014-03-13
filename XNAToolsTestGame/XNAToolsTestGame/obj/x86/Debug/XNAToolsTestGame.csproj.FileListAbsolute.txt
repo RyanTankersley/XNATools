@@ -4,3 +4,9 @@ c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGam
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.pdb
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.exe
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe.config
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.exe
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.pdb

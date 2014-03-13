@@ -12,3 +12,17 @@ c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestCli
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.csproj.GenerateResource.Cache
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.exe
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\XNAToolsTestClient.exe.config
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.exe
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\XNAToolsTestClient.exe
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\XNAToolsTestClient.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\MapEditor.dll
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\Embedding.dll
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\TileEngine.dll
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\MapEditor.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\Embedding.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\bin\Debug\TileEngine.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.csprojResolveAssemblyReference.cache
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\obj\x86\Debug\XNATools.TestClient.Properties.Resources.resources
+C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestClient\obj\x86\Debug\XNAToolsTestClient.csproj.GenerateResource.Cache

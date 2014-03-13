@@ -10,3 +10,15 @@ c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
 c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapEditorWindow.resources
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\MapEditor.dll
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\MapEditor.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\Embedding.dll
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\TileEngine.dll
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\TileEngine.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\Embedding.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.csprojResolveAssemblyReference.cache
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapEditorWindow.resources
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Properties.Resources.resources
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.csproj.GenerateResource.Cache
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
