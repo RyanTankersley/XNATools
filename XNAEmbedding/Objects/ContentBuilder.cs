@@ -203,6 +203,11 @@ namespace XNATools.Embedding.Objects
             projectItems.Add(item);
         }
 
+        /// <summary>
+        /// Adds a texture to the content manager
+        /// </summary>
+        /// <param name="fileName">The file path of the texture</param>
+        /// <param name="name">The name of the file to add</param>
         public void AddTexture(string fileName, string name)
         {
             Add(fileName, name, "TextureImporter", "TextureProcessor");

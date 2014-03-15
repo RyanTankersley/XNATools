@@ -22,3 +22,4 @@ C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEdit
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.csproj.GenerateResource.Cache
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapEditor.resources

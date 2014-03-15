@@ -20,6 +20,7 @@ namespace XNATools.SpriteEngine.Objects.Sprite
         protected Animation.Animation previousAnimation = null;
         protected Vector2 position = new Vector2(200, 200);
         protected Vector2 prevPosition = new Vector2(200, 200);
+
         public Animation.Animation CurrentAnimation { get { return this.currentAnimation; } }
         public Animation.Animation PreviousAnimation { get { return this.previousAnimation; } }
 
@@ -31,11 +32,19 @@ namespace XNATools.SpriteEngine.Objects.Sprite
             this.currentAnimation = this.animations.StandbyAnimation;
         }
 
+        /// <summary>
+        /// Loads in the animation content for the sprite
+        /// </summary>
+        /// <param name="content">The content manager to use to load in the Texture</param>
         public void LoadContent(ContentManager content)
         {
             this.animations.LoadContent(content);
         }
 
+        /// <summary>
+        /// Draws the sprite using the given spritebatch
+        /// </summary>
+        /// <param name="spriteBatch">The spritebatch to use to draw</param>
         public void Draw(SpriteBatch spriteBatch)
         {
             if (currentAnimation != null)
@@ -44,6 +53,10 @@ namespace XNATools.SpriteEngine.Objects.Sprite
             }
         }
 
+        /// <summary>
+        /// Updates the sprite's animation
+        /// </summary>
+        /// <param name="gameTime">The gametime</param>
         public virtual void Update(GameTime gameTime)
         {
             if (this.currentAnimation != null)
@@ -52,6 +65,10 @@ namespace XNATools.SpriteEngine.Objects.Sprite
             }
         }
 
+        /// <summary>
+        /// Changes the animation to the given animation
+        /// </summary>
+        /// <param name="animation">The animation to change to</param>
         protected void ChangeAnimation(Animation.Animation animation)
         {
             if (currentAnimation != animation)

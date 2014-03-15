@@ -59,38 +59,54 @@ namespace XNATools.SpriteEngine.Objects.Animation
             this.origin = new Vector2(source.Width / 2, source.Height / 2);
         }
 
+        /// <summary>
+        /// Loads the sprite texture into the content manager
+        /// </summary>
+        /// <param name="content">The content manager to use to load the sprite texture</param>
         public void LoadContent(ContentManager content)
         {
             this.spriteTexture = content.Load<Texture2D>(this.contentName);
         }
 
+        /// <summary>
+        /// Changes the status of the animation of the sprite
+        /// </summary>
+        /// <param name="gameTime">The time of the game</param>
         public void Animate(GameTime gameTime)
         {
             timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
 
+            //If the timer has passed the given interval to change sprite frames
             if (timer > interval)
             {
+                //Changes the current frame, up if not reversing, backwards if reversing
                 currentFrame += !reverse ? 1 : -1;
 
+                //If it has reached the end of the frames
                 if (currentFrame >= frameCount)
                 {
+                    //Starts over if in a loop
                     if (loop)
                     {
                         currentFrame = 0;
                     }
+                    //Goes to the previous frame and puts the animation into reverse
                     else
                     {
                         currentFrame -= 2;
                         reverse = true;
                     }
                 }
+                //If it has gotten below the first frame
                 else if (currentFrame < 0)
                 {
+                    //Turns off reverse and sets it at the frame after the first frame
                     reverse = false;
                     currentFrame += 2;
                 }
 
                 timer = 0f;
+                //Re sets the source based on the current change of frame
                 source = new Rectangle(startX + (currentFrame * pictureOffset), startY, width, height);
             }
         }

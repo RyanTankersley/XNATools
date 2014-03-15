@@ -20,6 +20,10 @@ namespace XNATools.SpriteEngine.Objects.Sprite
             currentKBState = Keyboard.GetState();
         }
 
+        /// <summary>
+        /// On update, sets the direction of the sprite based on which keys are set.
+        /// </summary>
+        /// <param name="gameTime">The time of the game</param>
         public override void Update(GameTime gameTime)
         {
             previousKBState = currentKBState;

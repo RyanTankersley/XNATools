@@ -69,6 +69,14 @@ namespace XNATools.SpriteEngine.Collections
             }
         }
 
+        /// <summary>
+        /// The constructor.  Use the constant names for each animation or it will throw an exception
+        /// </summary>
+        /// <param name="standByAnimation">const STANDBY_NAME</param>
+        /// <param name="moveLeft">const MOVE_LEFT_NAME</param>
+        /// <param name="moveRight">const MOVE_RIGHT_NAME</param>
+        /// <param name="moveUp">const MOVE_UP</param>
+        /// <param name="moveDown">const MOVE_DOWN_NAME</param>
         public MoveableAnimations(Animation standByAnimation, Animation moveLeft, Animation moveRight,
                                 Animation moveUp, Animation moveDown)
             : base(standByAnimation)

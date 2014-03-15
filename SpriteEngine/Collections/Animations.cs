@@ -24,6 +24,11 @@ namespace XNATools.SpriteEngine.Collections
             } 
         }
 
+        /// <summary>
+        /// The constructor.  Requires a standby animation with the name of the constant "STANDBY_NAME".
+        /// Otherwise throws an exception
+        /// </summary>
+        /// <param name="standbyAnimation">The standby animation  with the name of the constant "STANDBY_NAME"</param>
         public Animations(Animation standbyAnimation)
         {
             if (standbyAnimation != null && standbyAnimation.Name == STANDBY_NAME)
@@ -37,6 +42,11 @@ namespace XNATools.SpriteEngine.Collections
 
         }
 
+        /// <summary>
+        /// Finds the animation in the list of animations with the given name
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public Animation FindAnimationByName(string name)
         {
             Animation toReturn = null;
@@ -52,6 +62,10 @@ namespace XNATools.SpriteEngine.Collections
             return toReturn;
         }
 
+        /// <summary>
+        /// Loads in the content of all the animations in the list
+        /// </summary>
+        /// <param name="content"></param>
         public void LoadContent(ContentManager content)
         {
             foreach (Animation a in this)

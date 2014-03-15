@@ -41,17 +41,24 @@ namespace XNATools.SpriteEngine.Objects.Sprite
             this.sprintSpeed = sprintSpeed;
         }
 
+        /// <summary>
+        /// Updates the position of the sprite.
+        /// </summary>
+        /// <param name="gameTime">The time of the game</param>
         public override void Update(GameTime gameTime)
         {
             UpdatePosition();
             base.Update(gameTime);
         }
 
+        /// <summary>
+        /// Updates the position of the sprite.
+        /// </summary>
         protected void UpdatePosition()
         {
             prevPosition = position;
 
-            //System.Diagnostics.Debug.WriteLine(this.CurrentAnimation.Name);
+            //Changes the position based on what direction is pushed, and changes the animation
             switch (currentDirection)
             {
                 case Direction.Up:
@@ -136,12 +143,20 @@ namespace XNATools.SpriteEngine.Objects.Sprite
             }
         }
 
+        /// <summary>
+        /// Changes the direction of the sprite
+        /// </summary>
+        /// <param name="direction">Changes the direction of the sprite to the new direction</param>
         public void ChangeDirection(Direction direction)
         {
             this.prevDirection = this.currentDirection;
             this.currentDirection = direction;
         }
 
+        /// <summary>
+        /// Keeps the sprite inside of the client bounds
+        /// </summary>
+        /// <param name="clientBounds">The client bounds to keep the sprite within</param>
         public void KeepInClientBounds(Rectangle clientBounds)
         {
             if (position.Y < 20)

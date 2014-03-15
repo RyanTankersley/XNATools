@@ -87,12 +87,26 @@ namespace XNATools.Embedding.Controls
             base.OnCreateControl();
         }
 
+        /// <summary>
+        /// Loads the given file into the content project using the given importer/processor, and then builds the project
+        /// </summary>
+        /// <param name="fileName">THe file path to load in</param>
+        /// <param name="name">The name of the content to add</param>
+        /// <param name="importer">The importer to use for the content</param>
+        /// <param name="processor">The processor to use for the content</param>
+        /// <returns>Error information.  Empty if no errors.</returns>
         protected string BuildContent(string fileName, string name, string importer, string processor)
         {
             contentBuilder.Add(fileName, name, importer, processor);
             return contentBuilder.Build();
         }
 
+        /// <summary>
+        /// Loads a texture from the file name and gives it the given name.
+        /// </summary>
+        /// <param name="fileName">The file name to load into a textre</param>
+        /// <param name="name">The name to give it</param>
+        /// <returns>The loaded Texture2d</returns>
         protected Texture2D LoadTexture(string fileName, string name)
         {
             contentBuilder.AddTexture(fileName, name);

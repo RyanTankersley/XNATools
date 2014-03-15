@@ -1,7 +1,11 @@
 ﻿using System;
-using System.Diagnostics;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
 using System.Windows.Forms;
-using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -10,83 +14,45 @@ using XNATools.TileEngine.Collections;
 
 namespace XNATools.MapEditor.Controls
 {
-    public class MapEditor : XNATools.Embedding.Controls.XNAControl
+    public partial class MapEditor : UserControl
     {
-        SpriteBatch spriteBatch = null;
-        Camera camera = null;
-        private TileMap map = null;
-        public TileMap Map { get { return this.map; } set { this.map = value; } }
-
         public MapEditor()
         {
+            InitializeComponent();
         }
 
         /// <summary>
-        /// Initializes the control.
+        /// Loads the map viewer and sprite sheet, setting up the map with the given value
         /// </summary>
-        protected override void Initialize()
+        /// <param name="spriteSheet">The sprite sheet to use to edit the map</param>
+        /// <param name="map">The map to create things from</param>
+        /// <param name="tileSize">The size of the tiles on the map</param>
+        public void LoadViewers(string spriteSheet, TileMap map, Vector2 tileSize)
         {
-            Random rand = new Random();
-            //int val = 0;
-            spriteBatch = new SpriteBatch(base.GraphicsDevice);
-            //for (int i = 0; i < 100; i++)
-            //{
-            //    map.MapRows.Add(new MapRow());
-            //    for (int j = 0; j < 100; j++)
-            //    {
-            //        val = (rand.Next() % 3);
-            //        map.MapRows[i].Cells.Add(new MapCell(new Tile("Grass", (byte)val, new Vector2(val * 48, 0))));
-            //    }
-            //}
-
-            camera = new Camera(Vector2.Zero, new Vector2(this.Width, this.Height), new Vector2(.6f, .6f));
-            //LoadContent();
-            // Hook the idle event to constantly redraw our animation.
-            Application.Idle += delegate { Invalidate(); };
+            LoadViewers(spriteSheet, tileSize);
+            this.ucMapEdit.Map = map;
         }
 
-        public void LoadMap(string texturePath, Vector2 tileSize)
+        /// <summary>
+        /// Loads the map viewer and the sprite sheet, making the map empty.
+        /// </summary>
+        /// <param name="spriteSheet">The spriteSheet to load</param>
+        /// <param name="tileSize">The size of each tile in the spritesheet</param>
+        public void LoadViewers(string spriteSheet, Vector2 tileSize)
         {
-            if (File.Exists(texturePath))
-            {
-                try
-                {
-                    map = new TileMap(tileSize);
-                    map.SpriteSheet = base.LoadTexture(texturePath, System.IO.Path.GetFileNameWithoutExtension(texturePath));
-                }
-                catch
-                {
-                    MessageBox.Show("Error Loading " + Path.GetFileName(texturePath), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            else
-            {
-                MessageBox.Show("File Path Does not exist", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            LoadSpriteSheet(spriteSheet);
+            this.ucMapEdit.LoadMap(spriteSheet, tileSize);
         }
 
-        protected void LoadContent()
+        /// <summary>
+        /// Loads the sprite sheet into both viewers
+        /// </summary>
+        /// <param name="spriteSheet">The sprite sheet to load into the viewer</param>
+        public void LoadSpriteSheet(string spriteSheet)
         {
-            //
-        }
-
-        protected void UpdateControl()
-        {
-            KeyboardState keyBoard = Keyboard.GetState();
-            camera.Update(this.map.MapSize);
-        }
-
-        protected override void Draw()
-        {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-            if (map != null && map.SpriteSheet != null)
-            {
-                spriteBatch.Begin();
-                map.Draw(spriteBatch, camera);
-                spriteBatch.End();
-
-                UpdateControl();
-            }
+            this.ucSpriteSheet.LoadMap(spriteSheet);
+            this.ucSpriteSheet.Map.MapRows.Add(new MapRow());
+            this.ucSpriteSheet.Map.MapRows[0].Cells.Add(new MapCell(new Tile("SpriteSheet", 0, new Vector2(0, 0))));
         }
     }
 }

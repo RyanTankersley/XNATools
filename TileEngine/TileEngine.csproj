@@ -95,6 +95,7 @@
   <ItemGroup>
     <Compile Include="Collections\MapCells.cs" />
     <Compile Include="Collections\MapRows.cs" />
+    <Compile Include="Collections\TileMaps.cs" />
     <Compile Include="Collections\Tiles.cs" />
     <Compile Include="Objects\Camera.cs" />
     <Compile Include="Objects\MapCell.cs" />

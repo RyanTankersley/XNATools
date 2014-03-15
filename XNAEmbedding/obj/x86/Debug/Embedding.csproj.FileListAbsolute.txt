@@ -8,3 +8,4 @@ C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.dll
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.pdb
+C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.csprojResolveAssemblyReference.cache

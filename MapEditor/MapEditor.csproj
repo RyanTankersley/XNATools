@@ -53,6 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controls\MapEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditor.Designer.cs">
+      <DependentUpon>MapEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapViewer.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="GUI\MapEditorWindow.cs">
@@ -61,7 +67,11 @@
     <Compile Include="GUI\MapEditorWindow.Designer.cs">
       <DependentUpon>MapEditorWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Objects\MapProject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\MapEditor.resx">
+      <DependentUpon>MapEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\MapEditorWindow.resx">
       <DependentUpon>MapEditorWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +108,7 @@
   <ItemGroup>
     <None Include="Resources\TerrainTiles.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
