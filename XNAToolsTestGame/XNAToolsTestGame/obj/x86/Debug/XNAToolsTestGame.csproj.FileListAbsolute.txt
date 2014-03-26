@@ -1,12 +1,25 @@
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe.config
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.pdb
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.exe
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe.config
 C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe
 C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.exe
 C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe.config
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.exe
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe.config
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.exe
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe.config
+C:\Users\ryan-eng\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.exe
+C:\Users\ryan-eng\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\bin\x86\Debug\XNAToolsTestGame.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ryan-eng\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.exe
+C:\Users\ryan-eng\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGame\obj\x86\Debug\XNAToolsTestGame.pdb

@@ -18,9 +18,5 @@ namespace XNATools.TileEngine.Objects
         {
             this.cells = new MapCells();
         }
-
-        public void Draw(SpriteBatch spriteBatch, Camera camera, int index)
-        {
-        }
     }
 }

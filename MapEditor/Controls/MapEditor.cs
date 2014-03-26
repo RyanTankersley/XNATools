@@ -16,9 +16,13 @@ namespace XNATools.MapEditor.Controls
 {
     public partial class MapEditor : UserControl
     {
+        private int SelectedLayer { get { return (int)this.nmLayer.Value; } }
+
         public MapEditor()
         {
             InitializeComponent();
+            this.ucMapEdit.MouseClickFinished += new EventHandler(MapViewer_Click);
+            this.ucSpriteSheet.MouseClickFinished += new EventHandler(MapViewer_Click);
         }
 
         /// <summary>
@@ -40,19 +44,81 @@ namespace XNATools.MapEditor.Controls
         /// <param name="tileSize">The size of each tile in the spritesheet</param>
         public void LoadViewers(string spriteSheet, Vector2 tileSize)
         {
-            LoadSpriteSheet(spriteSheet);
+            LoadSpriteSheet(spriteSheet, tileSize);
             this.ucMapEdit.LoadMap(spriteSheet, tileSize);
+            if (this.ucMapEdit.Map != null)
+            {
+                this.ucMapEdit.Map.CreateMapFromDefault(200, 200);
+            }
+            this.ucMapEdit.ChangeCameraMoveable(false);
         }
 
         /// <summary>
         /// Loads the sprite sheet into both viewers
         /// </summary>
         /// <param name="spriteSheet">The sprite sheet to load into the viewer</param>
-        public void LoadSpriteSheet(string spriteSheet)
+        public void LoadSpriteSheet(string spriteSheet, Vector2 tileSize)
         {
-            this.ucSpriteSheet.LoadMap(spriteSheet);
-            this.ucSpriteSheet.Map.MapRows.Add(new MapRow());
-            this.ucSpriteSheet.Map.MapRows[0].Cells.Add(new MapCell(new Tile("SpriteSheet", 0, new Vector2(0, 0))));
+            this.ucSpriteSheet.LoadMap(spriteSheet, tileSize);
+            if (this.ucSpriteSheet.Map != null)
+            {
+                this.ucSpriteSheet.Map.CreateMapFromTileSheet();
+            }
+
+            this.ucSpriteSheet.ChangeCameraMoveable(true);
+        }
+
+        /// <summary>
+        /// MapViewer_Click Event.  Sets the clicked viewer's camera to moveable,
+        /// and the unclicked viewer's camera to unmoveable
+        /// </summary>
+        /// <param name="sender">The map viewer clicked on</param>
+        /// <param name="e">Event Args</param>
+        public void MapViewer_Click(object sender, EventArgs e)
+        {
+            MapViewer mv = sender as MapViewer;
+            if (mv != null)
+            {
+                if (mv.Name == this.ucSpriteSheet.Name)
+                {
+                    HandleSpriteMapClick(mv);
+                }
+                else
+                {
+                    HandleTileMapClick(mv);
+                }
+            }
+        }
+
+        private void HandleSpriteMapClick(MapViewer mv)
+        {
+            mv.ChangeCameraMoveable(true);
+            this.ucMapEdit.ChangeCameraMoveable(false);
+
+        }
+
+        private void HandleTileMapClick(MapViewer mv)
+        {
+            mv.ChangeCameraMoveable(true);
+            this.ucSpriteSheet.ChangeCameraMoveable(false);
+            MapCell ssCell = null;
+            MapCell meCell = null;
+            if (this.ucSpriteSheet.SelectedMapCells.Count > 0 && this.ucMapEdit.SelectedMapCells.Count > 0)
+            {
+                ssCell = this.ucSpriteSheet.SelectedMapCells[0];
+                meCell = this.ucMapEdit.Map.MapRows[this.ucMapEdit.SelectedMapCells[0].RowIndex].Cells[this.ucMapEdit.SelectedMapCells[0].ColumnIndex];
+                for (int i = meCell.Tiles.Count; i < SelectedLayer; i++)
+                {
+                    meCell.Tiles.Add(new Tile("Default", 0, Vector2.Zero));
+                }
+
+                meCell.Tiles[SelectedLayer - 1] = ssCell.Tiles[0];
+            }
+        }
+
+        private void nmLayer_ValueChanged(object sender, EventArgs e)
+        {
+            this.ucMapEdit.Focus();
         }
     }
 }

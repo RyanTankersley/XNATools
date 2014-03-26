@@ -15,7 +15,7 @@ namespace XNAToolsTestClient
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new XNATools.MapEditor.GUI.MapEditorWindow());
+            Application.Run(new XNATools.MapEditor.GUI.TilesetManagerWindow());
         }
     }
 }

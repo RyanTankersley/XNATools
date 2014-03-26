@@ -1,1 +1,4 @@
 C:\Users\ryan\Documents\GitHub\XNATools\XNAToolsTestGame\XNAToolsTestGameContent\obj\x86\Debug\XNAToolsTestGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAToolsTestGame\XNAToolsTestGameContent\obj\x86\Debug\XNAToolsTestGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Michelle\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ryan-eng\Dropbox\XNATools\XNAToolsTestGame\XNAToolsTestGameContent\obj\x86\Debug\XNAToolsTestGameContent.contentprojResolveAssemblyReference.cache

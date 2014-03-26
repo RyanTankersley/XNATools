@@ -1,15 +1,3 @@
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\MapEditor.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\MapEditor.pdb
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\Embedding.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\TileEngine.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\TileEngine.pdb
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\Embedding.pdb
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.csprojResolveAssemblyReference.cache
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Properties.Resources.resources
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.csproj.GenerateResource.Cache
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapEditorWindow.resources
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\MapEditor.dll
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\MapEditor.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\bin\Debug\Embedding.dll
@@ -23,3 +11,67 @@ C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.csproj
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapEditor.resources
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\MapEditor.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\MapEditor.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\Embedding.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\TileEngine.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\TileEngine.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\bin\Debug\Embedding.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.csprojResolveAssemblyReference.cache
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapEditor.resources
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapViewer.resources
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapEditorWindow.resources
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Properties.Resources.resources
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.csproj.GenerateResource.Cache
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\MapEditor.dll
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\MapEditor.pdb
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\Embedding.dll
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\TileEngine.dll
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\TileEngine.pdb
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\Embedding.pdb
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapEditor.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapViewer.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapEditorWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Properties.Resources.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\MapEditor.dll
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\MapEditor.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\Embedding.dll
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\TileEngine.dll
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\TileEngine.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\Embedding.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\MapEditor.csprojResolveAssemblyReference.cache
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapEditor.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.MapViewer.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapEditorWindow.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Properties.Resources.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\MapEditor.csproj.GenerateResource.Cache
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\MapEditor.dll
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\MapEditor.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\MapEditor.dll.config
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\ToolHelper.dll
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\bin\Debug\ToolHelper.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapCreator.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.NewMapProjectWindow.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.TilesetManagerViewer.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.TilesetTree.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.TilesetManagerWindow.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.NewDirectoryChildWindow.resources
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.NewTilesetWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.TilesetManagerViewer.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.Controls.TilesetTree.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.MapCreator.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.NewDirectoryChildWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.NewMapProjectWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.NewTilesetWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.TilesetManagerWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\MapEditor.dll.config
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\ToolHelper.dll
+C:\Users\Michelle\Dropbox\XNATools\MapEditor\bin\Debug\ToolHelper.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\MapEditor\obj\x86\Debug\XNATools.MapEditor.GUI.NewMapItemWindow.resources

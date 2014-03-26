@@ -1,12 +1,22 @@
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.pdb
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.csprojResolveAssemblyReference.cache
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.dll
 C:\Users\ryan\Documents\GitHub\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.csprojResolveAssemblyReference.cache
 C:\Users\ryan\Documents\GitHub\XNATools\SpriteEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ryan\Documents\GitHub\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.dll
 C:\Users\ryan\Documents\GitHub\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.pdb
+C:\Users\Michelle\Dropbox\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.dll
+C:\Users\Michelle\Dropbox\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.pdb
+C:\Users\Michelle\Dropbox\XNATools\SpriteEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michelle\Dropbox\XNATools\SpriteEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Michelle\Dropbox\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.dll
+C:\Users\Michelle\Dropbox\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.dll
+C:\Users\ryan-eng\Dropbox\XNATools\SpriteEngine\bin\x86\Debug\SpriteEngine.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\SpriteEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ryan-eng\Dropbox\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.dll
+C:\Users\ryan-eng\Dropbox\XNATools\SpriteEngine\obj\x86\Debug\SpriteEngine.pdb

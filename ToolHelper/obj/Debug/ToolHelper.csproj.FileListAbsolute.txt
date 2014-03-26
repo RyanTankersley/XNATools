@@ -1,0 +1,14 @@
+C:\Users\ryan-eng\Dropbox\XNATools\ToolHelper\bin\Debug\ToolHelper.dll
+C:\Users\ryan-eng\Dropbox\XNATools\ToolHelper\bin\Debug\ToolHelper.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\ToolHelper\obj\Debug\ToolHelper.dll
+C:\Users\ryan-eng\Dropbox\XNATools\ToolHelper\obj\Debug\ToolHelper.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\ToolHelper\obj\Debug\ToolHelper.csproj.GenerateResource.Cache
+C:\Users\ryan-eng\Dropbox\XNATools\ToolHelper\obj\Debug\XNATools.ToolHelper.GUI.InputWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\bin\Debug\ToolHelper.dll
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\bin\Debug\ToolHelper.pdb
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\obj\Debug\XNATools.ToolHelper.GUI.InputWindow.resources
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\obj\Debug\ToolHelper.dll
+C:\Users\Michelle\Dropbox\XNATools\ToolHelper\obj\Debug\ToolHelper.pdb

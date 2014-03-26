@@ -52,6 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\MapObjects.cs" />
+    <Compile Include="Collections\MapProjects.cs" />
+    <Compile Include="Collections\ObjectDirectories.cs" />
+    <Compile Include="Collections\Tilesets.cs" />
     <Compile Include="Controls\MapEditor.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -61,19 +65,101 @@
     <Compile Include="Controls\MapViewer.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\TilesetTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TilesetTree.Designer.cs">
+      <DependentUpon>TilesetTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TilesetManagerViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TilesetManagerViewer.Designer.cs">
+      <DependentUpon>TilesetManagerViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\MapDAL.cs" />
+    <Compile Include="GUI\MapCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MapCreator.Designer.cs">
+      <DependentUpon>MapCreator.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\MapEditorWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\MapEditorWindow.Designer.cs">
       <DependentUpon>MapEditorWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\NewDirectoryChildWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewDirectoryChildWindow.Designer.cs">
+      <DependentUpon>NewDirectoryChildWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewMapItemWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewMapItemWindow.Designer.cs">
+      <DependentUpon>NewMapItemWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewMapProjectWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewMapProjectWindow.Designer.cs">
+      <DependentUpon>NewMapProjectWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewTilesetWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewTilesetWindow.Designer.cs">
+      <DependentUpon>NewTilesetWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TilesetManagerWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TilesetManagerWindow.Designer.cs">
+      <DependentUpon>TilesetManagerWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\IMapDirectoryContainer.cs" />
+    <Compile Include="Objects\IMapDirectoryObject.cs" />
+    <Compile Include="Objects\INewMapObjectWindow.cs" />
+    <Compile Include="Objects\MapObject.cs" />
     <Compile Include="Objects\MapProject.cs" />
+    <Compile Include="Objects\ObjectDirectory.cs" />
+    <Compile Include="Objects\Tileset.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\MapEditor.resx">
       <DependentUpon>MapEditor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MapViewer.resx">
+      <DependentUpon>MapViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TilesetManagerViewer.resx">
+      <DependentUpon>TilesetManagerViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TilesetTree.resx">
+      <DependentUpon>TilesetTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MapCreator.resx">
+      <DependentUpon>MapCreator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\MapEditorWindow.resx">
       <DependentUpon>MapEditorWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewDirectoryChildWindow.resx">
+      <DependentUpon>NewDirectoryChildWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewMapItemWindow.resx">
+      <DependentUpon>NewMapItemWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewMapProjectWindow.resx">
+      <DependentUpon>NewMapProjectWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewTilesetWindow.resx">
+      <DependentUpon>NewTilesetWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TilesetManagerWindow.resx">
+      <DependentUpon>TilesetManagerWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,6 +171,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,6 +186,10 @@
     <ProjectReference Include="..\TileEngine\TileEngine.csproj">
       <Project>{F0F2C495-6616-4FB1-AB01-D541957691F5}</Project>
       <Name>TileEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolHelper\ToolHelper.csproj">
+      <Project>{CB7D8B1B-B9F6-4E9A-9CEC-65ED272D6828}</Project>
+      <Name>ToolHelper</Name>
     </ProjectReference>
     <ProjectReference Include="..\XNAEmbedding\Embedding.csproj">
       <Project>{5A5DB85F-6639-45FD-854B-A8802C8A0F14}</Project>

@@ -16,35 +16,19 @@ namespace XNATools.MapEditor.GUI
             InitializeComponent();
         }
 
-        private void tsmiNew_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Starts a new Map Project
+        /// </summary>
+        /// <param name="spriteFileName">The path to the sprite sheet that will be used to create the maps.</param>
+        public void StartNew(string spriteFileName)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Title = "Open sprite sheet to load";
-            string fileName = string.Empty;
-
-            if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (!string.IsNullOrEmpty(spriteFileName) && File.Exists(spriteFileName))
             {
-                fileName = ofd.FileName;
-            }
-
-            if (!string.IsNullOrEmpty(fileName) && File.Exists(fileName))
-            {
-                this.ucMapEditor.LoadViewers(fileName, new Vector2(32, 32));
+                this.ucMapEditor.LoadViewers(spriteFileName, new Vector2(32, 32));
             }
             else
             {
                 MessageBox.Show("File does not exist.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void tsmiSave_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog sfd = new SaveFileDialog();
-            sfd.Filter = "Map Editor FIle (.mep)|*.mep";
-            sfd.DefaultExt = ".mep";
-            if (sfd.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
-            {
-
             }
         }
     }

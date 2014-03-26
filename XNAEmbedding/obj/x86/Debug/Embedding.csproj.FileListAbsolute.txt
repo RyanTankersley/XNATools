@@ -1,11 +1,22 @@
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.pdb
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.dll
-c:\users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.dll
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.dll
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.pdb
 C:\Users\ryan\Documents\GitHub\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.csprojResolveAssemblyReference.cache
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.pdb
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.dll
+C:\Users\ryan-eng\documents\visual studio 2010\Projects\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.pdb
+C:\Users\Michelle\Dropbox\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.dll
+C:\Users\Michelle\Dropbox\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.pdb
+C:\Users\Michelle\Dropbox\XNATools\XNAEmbedding\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michelle\Dropbox\XNATools\XNAEmbedding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Michelle\Dropbox\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.dll
+C:\Users\Michelle\Dropbox\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.dll
+C:\Users\ryan-eng\Dropbox\XNATools\XNAEmbedding\bin\x86\Debug\Embedding.pdb
+C:\Users\ryan-eng\Dropbox\XNATools\XNAEmbedding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ryan-eng\Dropbox\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.dll
+C:\Users\ryan-eng\Dropbox\XNATools\XNAEmbedding\obj\x86\Debug\Embedding.pdb

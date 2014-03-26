@@ -14,13 +14,5 @@ namespace XNATools.TileEngine.Collections
         {
 
         }
-
-        public void Draw(SpriteBatch spriteBatch, Camera camera)
-        {
-            for (int i = 0; i < this.Count; i++)
-            {
-                this[i].Draw(spriteBatch, camera, i);
-            }
-        }
     }
 }
